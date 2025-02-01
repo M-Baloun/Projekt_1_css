@@ -1,0 +1,321 @@
+body {
+    background-size: 100%;
+}
+
+.strana_2 {
+    padding-top: 80px;
+    background-color: #f3f3f3;
+    padding-bottom: 250px;
+    margin-bottom: -180px;
+}
+
+/**
+    main obsah
+
+    1. strana
+*/
+
+
+.main_H1_black {
+    text-align: center;
+    font: 90px "Gill Sans", Verdana, Arial, sans-serif;;
+    font-weight: 600;
+    margin: -30px auto;
+}
+
+.main_H1_orange {
+    text-align: center;
+    font: 90px "Gill Sans", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    margin: 5px auto;
+    color: #ff6a00;
+}
+
+.prihlaseni {
+    display: flex;
+    gap: 20px;
+    margin-right: -65px;
+}
+
+.prihlaseni_H2 {
+    border-radius: 55px;
+    color: black;
+    font: 20px "Arial Rounded MT Bold", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    border: 2px solid #d0d0d0;
+    padding: 10px 18px 10px 18px;
+}
+
+.prihlaseni_H2:hover {
+    background-color: #000000;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.cerny_text {
+    color: black;
+    display: inline;
+    font: 75px "Gill Sans";
+    font-weight: 600;
+}
+
+.oranzovy_text {
+    color: #ff6a00;
+    display: inline;
+    font: 75px "Gill Sans";
+    margin-left: 15px;
+    font-weight: 600;
+}
+
+.centrovany_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.registrace_H2 {
+    border-radius: 55px;
+    color: #ffffff;
+    background-color: black;
+    font: 20px "Arial Rounded MT Bold", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    border: 2px solid #000000;
+    padding: 10px 18px 10px 18px;
+}
+
+
+.main_H6 {
+    text-align: center;
+    color: #1e1e1e;
+    font: 12px "Arial Rounded MT Bold", Helvetica, Arial, sans-serif;
+
+}
+
+.main_H6 span {
+    display: inline-block;
+    background-color: #dfdfdf;
+    padding: 8px;
+    color: white;
+    border: 3px double;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.main_H6_2 {
+    margin-top: 0;
+    text-align: center;
+    color: #131313;
+    font: 12px "Arial Rounded MT Bold", Helvetica, Arial, sans-serif;
+}
+
+.main_H6_2 span {
+    display: inline-block;
+    background-color: #f8f8f8;
+    padding: 12px;
+    border: 3px double #eaeaea;
+    border-radius: 20px;
+}
+
+
+.H6_3 {
+    text-align: center;
+    font: 23px "Apple LiGothic", Helvetica, Arial, sans-serif;
+    margin-bottom: 5px;
+    margin-top: 80px;
+}
+
+.text {
+    padding-top: 30px;
+    text-align: center;
+    color: #000000;
+    font: 16px "Arial Unicode MS", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+
+/*
+    navigace
+
+*/
+
+
+.navigace_2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navigace_H3_2 {
+    border-radius: 55px;
+    color: black;
+    font: 15px "Arial Unicode MS", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid #8c8c8c;
+    padding: 15px 35px 15px 35px;
+}
+
+.navigace_H3 {
+    border-radius: 55px;
+    background-color: #000000;
+    color: #ffffff;
+    font: 15px "Arial Unicode MS", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid #8c8c8c;
+    padding: 15px 35px 15px 35px;
+}
+
+.navigace_H3_2:hover {
+    background-color: #000000;
+    color: #ffffff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.navigace_2 h1 h2 {
+    margin: 0;
+    padding: 0 10px;
+}
+
+.navigace {
+    background: #ffffff;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 10px;
+}
+
+.navigace ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 130px;
+    margin-top: 0;
+    font: bold 18px/1 "Bahnschrift", sans-serif;
+}
+
+.navigace li {
+    margin: 20px 15px;
+}
+
+.tlacitko {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #000000;
+    transition: background-color 0.3s;
+}
+
+.tlacitko:hover {
+    background-color: #000000;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+
+/*
+    články
+*/
+
+
+.clanky {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 100%;
+    padding: 0;
+}
+
+.clanek_1 {
+    background: #fbfbfb;
+    padding: 10px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    width: 345px;
+    height: 440px;
+    margin: auto;
+}
+
+.clanek_1:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.clanek_1 h4 {
+    font: bold 18px/1 "Bahnschrift", sans-serif;
+}
+
+.clanek_1 p {
+    color: #606060;
+    font: bold 12px/1 "Bahnschrift", sans-serif;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.clanek_1 a {
+    text-decoration: none;
+    font: bold 13px/1 "Bahnschrift", sans-serif;
+    border: 2px solid #000000;
+    padding: 5px;
+    border-radius: 25px;
+    color: #000000;
+}
+
+.clanek_1 a:hover {)
+transition: 0.5s;
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+/*
+    patička
+*/
+
+
+.paticka {
+    border-radius: 30px 30px 0 0;
+    background: #c6c6c6;
+    padding: 10px;
+    margin-top: 20px;
+    transform: translateY(60px);
+}
+
+.Contact_us {
+    text-align: center;
+    font: bold 26px/1 "Bahnschrift", sans-serif;
+}
+
+.kontakty {
+    font: 20px/1 "Bahnschrift", sans-serif;
+    text-align: center;
+}
+
+.soc_site_ikony {
+    gap: 20px;
+    display: flex;
+    margin-left: 420px;
+}
+
+.soc_site_button {
+    background: #a1a1a1;
+    border: 2px solid #a3a3a3;
+    color: #000000;
+    text-decoration: none;
+    font: bold 18px/1 "Arial", sans-serif;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.autorske_pravo {
+    text-align: center;
+    font: bold 18px/1 "Bahnschrift", sans-serif;
+}
+
+ 
